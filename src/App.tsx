@@ -24,7 +24,7 @@ function App() {
 
   return (
     <main>
-      <h1>My ttttodos</h1>
+      <h1>My tttstodos</h1>
       <button onClick={createTodo}>+ new</button>
 
       <ul>
