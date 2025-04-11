@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Amplify Pull (CI/CD setup)
-        run: amplify pull --appId ${{ secrets.AMPLIFY_APP_ID }} --envName prod --yes
+        run: amplify pull --appId d3obmymrm174m3 --envName prod --yes
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AMPLIFY_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AMPLIFY_SECRET_KEY }}
